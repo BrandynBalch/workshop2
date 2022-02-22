@@ -10,14 +10,14 @@ services:
     expose:
       - 8000
     environment:
-      - DB_NAME=nc_tutorials_db
-      - DB_USER=postgres
-      - DB_PASSWORD=admin123
-      - DB_HOST=nctutorials.c9tingudlzdo.us-east-1.rds.amazonaws.com
-      - DB_PORT=5432
-      - DATABASE=postgres
-      - VIRTUAL_HOST=ec2-34-196-177-34.compute-1.amazonaws.com
-      - VIRTUAL_PORT=8000
+      - DB_NAME=
+      - DB_USER=
+      - DB_PASSWORD=
+      - DB_HOST=
+      - DB_PORT=
+      - DATABASE=
+      - VIRTUAL_HOST=
+      - VIRTUAL_PORT=
   nginx:
     build: ./nginx
     image: 632385568360.dkr.ecr.us-east-1.amazonaws.com/workshop2:workshop2_nginx
